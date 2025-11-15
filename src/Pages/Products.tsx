@@ -9,10 +9,6 @@ import type { Product } from '../components/Card';
 // TYPE DEFINITIONS
 // ============================================================================
 
-interface FilterState {
-  categories: string[];
-  priceSort: 'asc' | 'desc' | null;
-}
 
 interface AppliedFilter {
   type: 'category' | 'price';
